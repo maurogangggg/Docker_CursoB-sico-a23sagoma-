@@ -209,5 +209,3 @@ Las opciones que proporciona este comando son las mismas que las del comando **s
   - **-t**: Reinicia un contenedor que se encuentra en ejecución indicando un ID o un nombre del contenedor durante un tiempo especificado dentro de la sintáxis. Ejemplo:
   
     - **docker stop -t 28 test**: En este caso, estaríamos reinciando durante 28 segundos un contenedor que se llama test.
-
-- 
