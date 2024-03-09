@@ -2,21 +2,21 @@
 
 # Docker instalado correctamente
 
-![Docker_instalado_Mauro](/Parte%20I/Pictures/docker_instalado_mauro.png)
+![Docker_instalado_Mauro](Pictures/docker_instalado_mauro.png)
 
 **Nombre de usuario**: eltitomauro
 
-![Docker_Mauro](/Parte%20I/Pictures/docker_mauro.png)
+![Docker_Mauro](Pictures/docker_instalado_mauro.png)
 
 # Creacion y ejecución del contenedor (hello-world)
 
 Para poder crear un contenedor mediante el software basado en contenedores llamado **Docker**, tendremos que simplemente dirigirnos a nuestra consola de comando de nuestra sistema mediante la cual trabajamos con docker, en mi caso, uso el subsistema de Linux **(WSL)**, lo abrimos y ejecutamos el comando **"docker run nombrecontenedor"**, donde el nombre del contenedor es **"hello-world"**.
 
-![Docker_run_Mauro](/Parte%20I/Pictures/docker_run_Mauro_hello-world.png.png)
+![Docker_run_Mauro](Pictures/docker_run_Mauro.png)
 
 Por tanto, al haber ejecutado dicho comando para poder crear el contenedor dentro de docker, si nos dirigimos a docker podemos ver perfectamente que se ha creado correctamente el contenedor.
 
-![Docker_image_Mauro](/Parte%20I/Pictures/docker_image_mauro.png)
+![Docker_image_Mauro](Pictures/docker_image_mauro.png)
 
 # Principales comandos usados en docker:
 
@@ -32,7 +32,7 @@ Algunas de las opciones que nos ofrece este comando son las siguientes:
 
 - **run**: Este comando nos permite poder ejecutar un contenedor a partir de una imagen. La sintáxis de este comando trata de la siguiente manera: **docker run [opciones] imagen [comando] [argumentos...]**.
 
-![Docker_run_Mauro](/Parte%20I/Pictures/docker_run_Mauro.png)
+![Docker_run_Mauro](Pictures/docker_run_Mauro.png)
 
 Dicho comando ofrece las siguientes opciones:
     
@@ -72,7 +72,7 @@ Dicho comando ofrece las siguientes opciones:
 
 - **start**: Este comando nos permite poder arrancar/iniciar un contenedor en concreto **(ya sea indicandole el nombre o el ID)** una vez que haya sido previamente detenido. La sintáxis de este comando consiste en: **docker start [opciones] contenedor [contenedor..]**
 
-![Docker_strart_Mauro](/Parte%20I/Pictures/docker_start_Mauro.png)
+![Docker_strart_Mauro](Pictures/docker_start_Mauro.png)
 
 Estas son algunas de las opciones que nos ofrece:
   
@@ -92,7 +92,7 @@ Estas son algunas de las opciones que nos ofrece:
 
 La sintáxis de este comando consiste en: **Docker exec [opciones] nombre_contenedor orden [argumentos]**
 
-![Docker_exec_Mauro](/Parte%20I/Pictures/docker_exec_Mauro.png)
+![Docker_exec_Mauro](Pictures/docker_exec_Mauro.png)
 
 Las opciones más importantes que tiene este comando son las siguientes:
   
@@ -110,7 +110,7 @@ Una de las órdenes más usadas de este comando una vez que nos encontremos trab
 
 - **ps**: Sirve para obtener información de los contenedores que se encuentran en ejecución, esta es la sintáxis del comando: **docker ps [opciones]**
 
-![Docker_ps_Mauro](/Parte%20I/Pictures/docker_ps_Mauro.png)
+![Docker_ps_Mauro](Pictures/docker_ps_Mauro.png)
 
 Indica información acerca de los siguientes aspectos:
   
@@ -138,7 +138,7 @@ Estas son algunas de las opciones más usudas que nos proporciona este comando:
 
 - **inspect**: Nos ofrece información acerca de los contenedores de una forma más detallada. La sintaxís de este comando se basa en: **docker inspect [opciones] nombre|ID [nombre|ID..]**.
 
-![Docker_inspect_Mauro](/Parte%20I/Pictures/docker_inspect_Mauro.png)
+![Docker_inspect_Mauro](Pictures/docker_inspect_Mauro.png)
 
 Estas son las opciones explicadas detalladamente que tiene este comando:
 
